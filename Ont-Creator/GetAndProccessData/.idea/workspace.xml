@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="56c6580c-2ee0-422e-9515-65946ca6d81f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../JavaWorkspace-OntCreator/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments_5t" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWorkspace-OntCreator/single_cell/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWorkspace-OntCreator/single_cell/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWorkspace-OntCreator/single_cell/target/classes/single_cell/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWorkspace-OntCreator/single_cell/target/classes/single_cell/Main.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="JupyterTrust" id="99e25f86-82c7-445d-b4ce-f60a77c919b8" />
+  <component name="ProjectId" id="1q7NVbI1DX9xyWKQcm116XgJvDo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="56c6580c-2ee0-422e-9515-65946ca6d81f" name="Default Changelist" comment="" />
+      <created>1616426693718</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616426693718</updated>
+      <workItem from="1616426698603" duration="93000" />
+      <workItem from="1620811338498" duration="2068000" />
+      <workItem from="1620909636226" duration="66000" />
+      <workItem from="1621003448751" duration="1776000" />
+      <workItem from="1621417002316" duration="2851000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="407" y="-997" key="#com.intellij.ide.util.MemberChooser" timestamp="1621003578573">
+      <screen x="-686" y="-1440" width="2560" height="1440" />
+    </state>
+    <state x="407" y="-997" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800/-686.-1440.2560.1440@-686.-1440.2560.1440" timestamp="1621003578573" />
+  </component>
+</project>

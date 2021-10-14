@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="169d08c8-5b27-4094-a93a-2ecec0ba9f27" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/GetAndProccessData/From_raw_to_processed.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/GetAndProccessData/From_raw_to_processed.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GetAndProccessData/Get_HCA_data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/GetAndProccessData/Get_HCA_data.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GetAndProccessData/Get_SCEA_data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/GetAndProccessData/Get_SCEA_data.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GetAndProccessData/OntologyConversor/GetTermsOntobee.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GetAndProccessData/OntologyConversor/Individual.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GetAndProccessData/OntologyConversor/OntologyConversorAbstract.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GetAndProccessData/OntologyConversor/OntologyConversorHCA.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GetAndProccessData/OntologyConversor/OntologyConversorSCAE.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GetAndProccessData/OntologyConversor/OntologyCreator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GetAndProccessData/OntologyConversor/Project.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GetAndProccessData/OntologyConversor/Specimen.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ptTipTrP37HPHPjNRD8PcRtlhR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="169d08c8-5b27-4094-a93a-2ecec0ba9f27" name="Default Changelist" comment="" />
+      <created>1616001516352</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616001516352</updated>
+      <workItem from="1616001518458" duration="117000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>

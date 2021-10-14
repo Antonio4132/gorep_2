@@ -1,0 +1,36 @@
+version: "3.9"
+
+services:
+
+  fuseki:
+    image: secoresearch/fuseki
+    restart: always
+    environment:
+      ADMIN_PASSWORD: pass_fuseki
+      ENABLE_DATA_WRITE: "true"
+      ENABLE_UPDATE: "true"
+      ENABLE_UPLOAD: "true"
+    ports:
+      - "3030:3030"
+
+  flask-api:
+    image: antonio4132/gorep_image:v1
+    environment:
+      POSTGRES-DB: database-postgres
+      POSTGRES-USER: user1
+      POSTGRES-PASSWORD: pass123
+
+    ports:
+      - "5000:5000"
+
+  db:
+    image: postgres:13.2
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: pass123
+      POSTGRES_USER: user1
+      POSTGRES_DB: database-postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data

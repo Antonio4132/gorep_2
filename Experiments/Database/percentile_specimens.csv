@@ -1,0 +1,121 @@
+projectId,projectTitle,specie,specimens,min_age,max_age,ageUnit
+091cf39b-01bc-42e5-9437-f419a66c8a45,Profiling of CD34+ cells from human bone marrow to understand hematopoiesis,HomoSapiens,3,19,35,year
+4a95101c-9ffc-4f30-a809-f04518a23803,A single-cell reference map of transcriptional states for human blood and tissue T cell activation,HomoSapiens,16,50,65,year
+4d6f6c96-2a83-43d8-8fe1-0f53bffd4674,Dissecting the human liver cellular landscape by single cell RNA-seq reveals novel intrahepatic monocyte/ macrophage populations,HomoSapiens,5,21,65,year
+8c3c290d-dfff-4553-8868-54ce45f4ba7f,Melanoma infiltration of stromal and immune cells,MusMusculus,54,6,12,week
+E-CURD-10,Single-cell transcriptome profiling for metastatic renal cell carcinoma patient-derived cells and xenografts,HomoSapiens,3,43,43,year
+E-CURD-11,Single-cell RNA sequencing of lung adenocarcinoma patient-derived cells,HomoSapiens,2,57,60,year
+E-CURD-12,"Single cell transcriptomes of developing chicken hind limbs at stages HH25, HH29 and HH31 - 10xv2 dataset",GallusGallus,2,-1,7,day
+E-CURD-13,"Single cell transcriptomes of developing chicken hind limbs at stages HH25, HH29 and HH31 - Dropseq dataset",GallusGallus,1,6,6,day
+E-CURD-21,The Drosophila Embryo at Single-Cell Transcriptome Resolution - Drosophila melanogaster dataset,DrosophilaMelanogaster,1,-1,-1,hour
+E-CURD-4,High-throughput single-cell transcriptome profiling of plant cell types - single cell dataset,ArabidopsisThaliana,2,5,7,day
+E-CURD-5,High-throughput single cell transcriptome profiling of plant tissue: single cell dataset ,ArabidopsisThaliana,1,5,5,day
+E-CURD-52,Single-cell RNA-seq of nasal cavity mucosa cells of mice stimulated with interferon alpha,MusMusculus,4,8,10,week
+E-CURD-56,Drop-seq single-cell sequencing of hemocytes from Drosophila larvae after wasp infestation,DrosophilaMelanogaster,1,96,128,hour
+E-CURD-57,"scRNA-seq of Anopheles gambiae hemocytes after blood-feeding, Plasmodium berghei infection, or sugar feeding",AnophelesGambiae,3,4,4,day
+E-CURD-6,Single-cell RNA-seq reveals differentiation hierarchy of normal human bone marrow and a distinct transcriptome signature of aneuploid cells,HomoSapiens,8,-1,67,year
+E-CURD-7,Single Cell RNA sequencing of Adult Human Breast Epithelial Cells - individuals 1-3,HomoSapiens,6,20,37,year
+E-CURD-9,Multi-modal analysis of the aging mouse lung at cellular resolution,MusMusculus,1,3,24,month
+E-ENAD-13,"Single-cell RNA-seq analysis of 1,522 cells of the small intestinal epithelium",MusMusculus,10,7,10,week
+E-ENAD-14,Single-cell RNA-seq analysis of 389 cells of the small intestinal epithelium in response to Salmonella enterica and to the parasitic helminth Heligmosomoides polygyrus,MusMusculus,5,7,10,week
+E-ENAD-17,Single cell RNA-seq of glioblastoma cells from five primary tumors,HomoSapiens,5,55,70,year
+E-ENAD-18,Single cell RNA-seq of Schistosoma mansoni stem cells from in vitro-transformed mother sporocysts,SchistosomaMansoni,1,48,48,hour
+E-ENAD-19,Single-cell RNA-sequencing of FACS sorted single blood cells from Anopheles gambiae,AnophelesGambiae,1,3,5,day
+E-ENAD-21,Single-cell RNA-seq analysis of adult human breast epithelial cells,HomoSapiens,3,20,37,year
+E-ENAD-27,Single cell transcriptomics defines human islet cell signatures and reveals cell-type-specific expression changes in type 2 diabetes,HomoSapiens,8,22,56,year
+E-ENAD-30,Molecular Mechanisms Driving Switch Behavior in Xylem Cell Differentiation,ArabidopsisThaliana,1,7,7,day
+E-GEOD-100426,Single-cell RNA-seq of long-term hematopoietic stem cells from young and aged mouse in response to inflammatory stress,MusMusculus,12,8,24,week
+E-GEOD-100911,Single-cell RNA-seq analysis of kidney marrow from six zebrafish transgenic lines that label specific blood cell types,DanioRerio,1,3,9,month
+E-GEOD-103334,Single cell RNA-seq of microglia cells isolated from the hippocampus of a mouse model of severe neurodegeneration with AD-like phenotypes ,MusMusculus,25,3,3,month
+E-GEOD-114530,Single cell RNA-sequencing of human fetal kidneys,HomoSapiens,5,9,18,gestationalWeek
+E-GEOD-121619,Dynamics of gene expression in single root cells of Arabidopsis thaliana,ArabidopsisThaliana,1,7,8,day
+E-GEOD-123013,Single-cell RNA-sequencing analysis of Arabidopsis roots,ArabidopsisThaliana,1,5,5,day
+E-GEOD-124263,Neonatal and adult human testis defined at the single-cell level,HomoSapiens,4,2,7,day
+E-GEOD-124263,Neonatal and adult human testis defined at the single-cell level,HomoSapiens,4,37,42,year
+E-GEOD-124472,Single cell RNA-Seq profiling of human embryonic kidney outer and inner cortical cells and kidney organoid cells,HomoSapiens,2,15,17,gestationalWeek
+E-GEOD-125970,Single-cell transcriptome analysis reveals differential nutrient absorption functions in human intestine,HomoSapiens,6,49,67,year
+E-GEOD-130148,Lung Cell Atlas: Single cell RNA sequencing analysis of fresh resected human lung tissue - Drop-seq dataset,HomoSapiens,4,58,69,year
+E-GEOD-130473,Single cell analysis of human fetal liver captures the transcriptional profile of hepatobiliary hybrid progenitors,HomoSapiens,6,7,57,year
+E-GEOD-130473,Single cell analysis of human fetal liver captures the transcriptional profile of hepatobiliary hybrid progenitors,HomoSapiens,14,15,19,gestationalWeek
+E-GEOD-134144,The Dynamic Transcriptional Cell Atlas of Testis Development during Human Puberty,HomoSapiens,6,7,60,year
+E-GEOD-135922,Single-cell transcriptomics of the human retinal pigment epithelium and choroid in health and macular degeneration,HomoSapiens,14,54,92,year
+E-GEOD-139324,Immune landscape of viral- and carcinogen-derived head and neck cancer,HomoSapiens,63,28,80,year
+E-GEOD-141273,A single cell transcriptome atlas of myeloid blood cell lineages in Drosophila [scRNA-seq],DrosophilaMelanogaster,4,72,120,hour
+E-GEOD-146122,"Single Cell RNA-sequencing of murine tail interfollicular epidermis basal cells at postnatal days 7, 30 and in adult",MusMusculus,1,7,68,day
+E-GEOD-149689,Immunophenotyping of COVID-19 and Influenza Underscores the Association of Type I IFN Response in Severe COVID-19,HomoSapiens,20,38,82,year
+E-GEOD-150728,A single-cell atlas of the peripheral immune response to severe COVID-19,HomoSapiens,12,20,69,year
+E-GEOD-70580,Single-cell RNA-seq analysis of human tonsil innate lymphoid cells,HomoSapiens,3,23,56,year
+E-GEOD-71585,Single-cell RNA-seq analysis of adult male mice primary visual cortex cells,MusMusculus,94,8,8,week
+E-GEOD-75140,Human cerebral organoids recapitulate gene expression programs of fetal neocortex development,HomoSapiens,3,12,13,gestationalWeek
+E-GEOD-75140,Human cerebral organoids recapitulate gene expression programs of fetal neocortex development,HomoSapiens,7,36,36,year
+E-GEOD-76312,Single cell RNA-seq of cancer stem cells from patients with chronic myeloid leukemia during the disease course,HomoSapiens,26,20,74,year
+E-GEOD-81383,"Single cell RNA-seq of three human melanoma cell lines: Ma-Mel-123, Ma-Mel-108 and Ma-Mel-93",HomoSapiens,1,35,75,year
+E-GEOD-81608,Single cell RNA-seq of human islet cells from non diabetic and type II diabetes organ donors,HomoSapiens,18,23,68,year
+E-GEOD-81682,Single cell RNA sequencing of mouse hematopoietic stem and progenitor cells ,MusMusculus,1,8,12,week
+E-GEOD-83139,"Single cell RNA-seq of human pancreatic endocrine cells from Juvenile, adult control and type 2 diabetic donors",HomoSapiens,1,19,19,month
+E-GEOD-83139,"Single cell RNA-seq of human pancreatic endocrine cells from Juvenile, adult control and type 2 diabetic donors",HomoSapiens,8,2,56,year
+E-GEOD-84465,Single-Cell RNAseq analysis of diffuse neoplastic infiltrating cells at the migrating front of human glioblastoma,HomoSapiens,4,48,60,year
+E-GEOD-87631,Single-cell RNA-seq analysis of young and old murine hematopoietic stem cells,MusMusculus,1,4,18,month
+E-GEOD-90848,Single-cell RNA-seq of purified populations of stem cells and transit-amplifying cells of hair follicles,MusMusculus,2,21,30,day
+E-GEOD-94641,Single cell RNA expression of mouse embryonic basal forebrain,MusMusculus,1,-1,-1,embryonicDay
+E-GEOD-98556,A versatile approach for assessing human stem cell-derived retinal progeny using single cell transcriptomics,HomoSapiens,1,64,64,year
+E-GEOD-98816,Single cell RNA-seq of mouse brain vascular transcriptomes,MusMusculus,1,12,15,week
+E-GEOD-99058,Single cell RNA-seq of mouse brain astrocyte transcriptomes,MusMusculus,1,12,15,week
+E-GEOD-99235,Single cell RNA-seq of mouse lung vascular transcriptomes,MusMusculus,1,12,15,week
+E-GEOD-99795,Single cell RNA-seq of human LNCaP prostate carcinoma cells cultured in the absence and presence of androgen for 12 hours,HomoSapiens,1,50,50,year
+E-MTAB-4547,The Global Molecular Landscape of dormant Hematopoietic Stem Cells,MusMusculus,1,29,33,week
+E-MTAB-4617,Single-cell RNA sequencing of spleen-derived LCK-expressing cells from adult zebrafish,DanioRerio,7,3,10,month
+E-MTAB-4850,Transcriptomic profiling of antigen-specific T cells at the single-cell level after clearance of hepatitis C virus,HomoSapiens,2,42,42,year
+E-MTAB-4888,RNA-seq of coding RNA from single cells to assess the impact of aging on cell-to-cell transcriptional variability during immune stimulation,MusMusculus,42,-1,21,month
+E-MTAB-5727,Single-cell RNA-seq of murine medullary thymic epithelial cells (mTECs),MusMusculus,1,2,4,week
+E-MTAB-5802,scRNA-seq of mouse adipose stem and progenitor cells,MusMusculus,3,8,10,week
+E-MTAB-6051,Single-cell RNA sequencing of OT-I CD8+ T cells after stimulation with different affinity ligands,MusMusculus,11,-1,25,week
+E-MTAB-6058,Single cell RNA-seq of isolated human foetal L/M-opsin cone photoreceptor populations labelled using the AAV2/9.pR2.1.GFP reporter,HomoSapiens,1,15,15,week
+E-MTAB-6077,Determining single-cell mRNA expression profiles of a specific population isolated from zebrafish embryos at 10 hours post fertilization,DanioRerio,1,10,10,hour
+E-MTAB-6173,Single cell RNA-Seq of the murine non-myocyte cardiac cellulome,MusMusculus,1,10,10,week
+E-MTAB-6308,An integrated approach to profile lung tumor endothelial cell heterogeneity across species and models and to identify angiogenic candidates,HomoSapiens,17,57,74,year
+E-MTAB-6379,Single-cell RNAseq of Human T lymphocyte derived from H7N9 infected patients,HomoSapiens,2,56,75,year
+E-MTAB-6385,RNA-sequencing for functional prediction of RNAs,MusMusculus,1,8,14,week
+E-MTAB-6386,Single cell RNA-sequencing of PBMC derived B cells from human healthy donor,HomoSapiens,1,33,33,year
+E-MTAB-6487,Interferon gene therapy reprograms the leukemia microenvironment inducing protective immunity to multiple tumor antigens,MusMusculus,2,20,20,week
+E-MTAB-6653,Single cell sequencing of 3 lung carcinomas,HomoSapiens,12,55,65,year
+E-MTAB-6677,scRNA-seq of Mus musculus subcutaneous Lin- cells derived from the subcutaneous adipose stromal vascular fraction,MusMusculus,1,8,8,week
+E-MTAB-6818,Single-cell RNA-seq of de-differentiated mammary adipocytes during lactation,MusMusculus,1,-1,-1,week
+E-MTAB-6879,Single cell RNA-seq of Stmn1+ isthmal cells and Pgc+ chief cells to compare and characterize distinct gastric corpus stem cells at molecular level,MusMusculus,5,-1,9,week
+E-MTAB-6945,Single-cell analysis of T-cells from mouse neonate thymuses in a wild type control and a placental specific isoform of Igf2 knock-down (igf2-P0),MusMusculus,7,6,6,day
+E-MTAB-6946,Single-cell RNA sequencing of mouse germ cells,MusMusculus,17,5,67,day
+E-MTAB-6976,Single-cell RNA sequencing of self-maintaining lamina propria macrophages,MusMusculus,1,35,35,week
+E-MTAB-6987,Single-cell RNA sequencing of VE-Cadherin+ cells isolated from mouse E10.5 aorta-gonad-mesonephros region,MusMusculus,1,-1,-1,embryonicDay
+E-MTAB-7037,Single-cell RNA-seq of of dermal fibroblasts (supplementary - human fibroblasts stimulation with dsRNA),HomoSapiens,2,30,55,year
+E-MTAB-7051,Single-cell RNA-seq of dermal fibroblasts (5 human individuals - IFNB stimulation),HomoSapiens,5,32,57,year
+E-MTAB-7052,Single-cell RNA-seq of of human dermal fibroblasts (supplementary - different stimulation conditions of dsRNA),HomoSapiens,3,40,44,year
+E-MTAB-7094,Origin and differentiation trajectories of fibroblastic reticular cells in the splenic white pulp - single cell RNAseq dataset 1,MusMusculus,1,6,8,week
+E-MTAB-7117,Single-cell transcriptional analysis reveals innate lymphoid cell (ILC)-like cells in zebrafish,DanioRerio,11,4,10,month
+E-MTAB-7142,Drop-seq analysis of bleomycin-treated and control mouse lung single-cell suspensions,MusMusculus,9,10,14,week
+E-MTAB-7149,Single cell transcriptional profiling of aortic endothelium identifies a hierarchy from endovascular progenitors to differentiated cells,MusMusculus,1,6,8,week
+E-MTAB-7159,Single-cell transcriptional analysis reveals ILC-like cells in zebrafish,DanioRerio,4,4,6,month
+E-MTAB-7249,Single cell RNA-seq of a human ex vivo ovarian model with matched stromal cells,HomoSapiens,1,81,81,year
+E-MTAB-7303,Single cell sequencing of iPSC-dopamine neurons reconstructs disease progression and identifies HDAC4 as a regulator of Parkinson cell phenotypes,HomoSapiens,6,36,81,year
+E-MTAB-7311,Single-cell RNA-seq of CD4+ Treg and Tmem cells from different tissues in mouse (Chromium 10x data),MusMusculus,5,6,14,week
+E-MTAB-7365,Single-cell RNA-seq of Pdgfra+/Sca1+/Cd31- mouse cardiac cells,MusMusculus,1,8,8,week
+E-MTAB-7376,Single-cell RNA-seq of mouse cardiac interstitial cells 3 & 7 days after sham or myocardial infarction injury,MusMusculus,1,8,8,week
+E-MTAB-7407,"Human fetal liver, skin and kidney single cell transcriptome data",HomoSapiens,27,4,17,week
+E-MTAB-7417,Single cell RNA-seq of mouse skin cells,MusMusculus,2,8,8,week
+E-MTAB-7427,Single-cell RNA sequencing reveals a dynamic stromal niche within the evolving tumour microenvironment,MusMusculus,54,6,12,week
+E-MTAB-7606,"Single cell RNA seq of influenza tetramer specific CD8+ T cells from baseline, acute and long term memory timepoints",HomoSapiens,1,31,31,year
+E-MTAB-7660,Single-cell RNA seq of mouse proximal small intestine at E16.5,MusMusculus,1,-1,-1,embryonicDay
+E-MTAB-7678,"scRNA-seq analysis of lung CD64-expressing mononuclear cells, patrolling and classical monocytes from steady-state C57BL/6J mice",MusMusculus,1,10,29,week
+E-MTAB-7703,Fibroblastic reticular cells in the spleen - total splenic Stroma cells - single cell RNAseq dataset 2,MusMusculus,1,6,8,week
+E-MTAB-8077,Single-Cell Transcriptome Atlas of Murine Endothelial Cells,MusMusculus,11,8,8,week
+E-MTAB-8221,scRNA-seq of human fetal lung primary tissues and cell cultures derived from fetal bud tip progenitors under dual SMAD treatment,HomoSapiens,9,-1,21,week
+E-MTAB-8410,Single cell sequencing of colorectal tumors and adjacent non-malignant colon tissue,HomoSapiens,27,33,86,year
+E-MTAB-8559,Single cell RNA-seq from 10X for a living biobank of ovarian cancer ex vivo models reveals profound mitotic heterogeneity,HomoSapiens,4,46,81,year
+E-MTAB-8698,Single cell RNA on hemocytes from wandering larvae of Drosophila melanogaster not infested and infested by Leptopilina boulardi,DrosophilaMelanogaster,2,115,115,hour
+E-MTAB-8810,Single cell RNA-Seq of the mouse heart in response to chronic stress,MusMusculus,1,10,10,week
+E-MTAB-9221,RNA-seq of RBC depleted whole blood from COVID-19 patients and controls,HomoSapiens,6,21,69,year
+abe1a013-af7a-45ed-8c26-f3793c24a1f4,Spatio-temporal immune zonation of the human kidney,HomoSapiens,9,53,72,year
+abe1a013-af7a-45ed-8c26-f3793c24a1f4,Spatio-temporal immune zonation of the human kidney,HomoSapiens,6,7,16,week
+ae71be1d-ddd8-4feb-9bed-24c3ddb6e1ad,Single-cell RNA-seq analysis of human pancreas from healthy individuals and type 2 diabetes patients,HomoSapiens,10,22,57,year
+cc95ff89-2e68-4a08-a234-480eca21ce79,Census of Immune Cells,HomoSapiens,127,0,52,year
+f8aa201c-4ff1-45a4-890e-840d63459ca2,Structural Remodeling of the Human Colonic Mesenchyme in Inflammatory Bowel Disease,MusMusculus,6,10,12,week
+f8aa201c-4ff1-45a4-890e-840d63459ca2,Structural Remodeling of the Human Colonic Mesenchyme in Inflammatory Bowel Disease,HomoSapiens,13,29,69,year
