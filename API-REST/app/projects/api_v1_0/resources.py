@@ -1,6 +1,6 @@
 import ast
 import gensim
-from gensim.models import KeyedVectors
+from gensim.models import Word2Vec
 
 from flask import request, Blueprint, jsonify
 from flask_restful import Api
@@ -13,123 +13,112 @@ api = Api(projects_v1_0_bp)
 
 #------------ Embeddings --------------
 
-kv = KeyedVectors.load('version3kv')
+model = Word2Vec.load("version3")
 
-@projects_v1_0_bp.route("/similarity", methods=['GET'])
+@projects_v1_0_bp.route("/vectorize", methods=['GET'])
 def get_embedding_similarity():
     """
-    Get the top 5 more similiar words
+    Get the numeric vector for the embedding 
     ---
     tags:
       - emebeddings
     parameters:
       - in: query
-        name: word
-        description: a word to check for similarities
+        name: text
+        description: Text to be converted to embedding
         type: string
 
     responses:
       200:
-        similarities: List of 5 most similar words to the one submitted.
+        embedding: Numeric vector corresponding to the text submited.
     """
 
     params = {}
 
-    word = request.values.get('word')
-    if word is not None:
-        params['word'] = word
-
-    palabra = params['word']
+    text = request.values.get('text')
+    if text is not None:
+        params['text'] = text
     
-    results = kv.most_similar(positive=[palabra])
+    textEmb = params['text']
+    
+    tokens = textEmb.split(' ')
+    
+    embs = []
+    for token in tokens:
+        emb = model.wv[token]
+        embs.append(emb)
 
-    return jsonify(results)
+    result = sum(embs)
 
-@projects_v1_0_bp.route("/embedding", methods=['GET'])
+    return jsonify(result.tolist())
+
+@projects_v1_0_bp.route("/cosine", methods=['GET'])
 def get_embedding():
     """
-    Get the tembeddings of a word
+    Get the cosine similarity between to sentences
     ---
     tags:
       - emebeddings
     parameters:
       - in: query
-        name: word
-        description: a word to get the embedding of
+        name: text1
+        description: First text
+        type: string
+      - in: query
+        name: text2
+        description: Second text
         type: string
 
     responses:
       200:
-        similarities: embedding of the requested word.
+        similarity: float value indicating the cosine similarity
     """
 
     params = {}
 
-    word = request.values.get('word')
-    if word is not None:
-        params['word'] = word
+    text1 = request.values.get('text1')
+    text2 = request.values.get('text2')
+    if text1 is not None:
+        params['text1'] = text1
+    if text2 is not None:
+        params['text2'] = text2
 
-    palabra = params['word']
+    firstSentence = params['text1'].split()
+    secondSentence = params['text2'].split()
     
-    vector = kv[palabra]
+    similarity = model.wv.wmdistance(firstSentence, secondSentence)
     
-    l = vector.tolist()
 
-    return jsonify(l)
+    return jsonify(similarity)
 
-@projects_v1_0_bp.route("/embedding_op", methods=['GET'])
+@projects_v1_0_bp.route("/similarity", methods=['GET'])
 def get_embedding_op():
     """
-    Get the similarity of a embeddings operation
+    Get the most similar key for the submitted text
     ---
     tags:
       - emebeddings
     parameters:
       - in: query
-        name: word
-        description: a word to get the main mebedding of
-        type: string
-      - in: query
-        name: sum
-        description: a word to sum
-        type: string
-      - in: query
-        name: dif
-        description: a word to dif
+        name: text
+        description: the text used to find the most simmilar value
         type: string
 
     responses:
       200:
-        similarities: most similar word to the operation
+        similarity: most similar key to the text
     """
 
     params = {}
 
-    word = request.values.get('word')
-    if word is not None:
-        params['word'] = word
-    suma = request.values.get('suma')
-    if suma is not None:
-        params['suma'] = suma
-    dif = request.values.get('dif')
-    if dif is not None:
-        params['dif'] = dif
-        
-    print(params)
+    text = request.values.get('text')
+    if text is not None:
+        params['text'] = text
 
-    palabra = params['word']
-    palabra_suma = params['suma']
-    palabra_resta = params['dif']
-    
-    a = kv[palabra]
-    b = kv[palabra_suma]
-    c = kv[palabra_resta]
-    
-    
-    result_vector = a + b - c  
+    sentence = params['text'].split()
 
+    result = model.wv.most_similar(positive=sentence)
 
-    result = kv.similar_by_vector(result_vector, topn=1)
 
     return jsonify(result)
 
