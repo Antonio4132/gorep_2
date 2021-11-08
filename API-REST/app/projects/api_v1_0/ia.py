@@ -48,7 +48,7 @@ def get_embedding_similarity():
         emb = model.wv[token]
         embs.append(emb)
 
-    result = sum(embs)
+    result = sum(embs)/len(tokens)
 
     return jsonify(result.tolist())
 
