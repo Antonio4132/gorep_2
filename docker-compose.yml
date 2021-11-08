@@ -14,7 +14,7 @@ services:
       - "3030:3030"
 
   flask-api:
-    image: antonio4132/gorep_image:v1
+    image: antonio4132/gorep_image:v1.1
     environment:
       POSTGRES-DB: database-postgres
       POSTGRES-USER: user1
